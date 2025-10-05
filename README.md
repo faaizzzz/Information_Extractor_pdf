@@ -29,7 +29,7 @@ python app.py --load-index index.pkl
 !pip install pdfplumber scikit-learn numpy joblib
 ##upload app.py and indexer.py file after running the below code
 from google.colab import files
-uploaded = files.upload()  # upload app.py, indexer.py
+uploaded = files.upload()  # upload app.py, indexer.py , and the pdfs in a folder called pdfs if not uploaded earlier.
 ##upload the pdfs in the Google Colab
 ##run the below code step by step to ask the questions
 import sys
